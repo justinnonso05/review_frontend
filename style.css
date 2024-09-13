@@ -50,3 +50,18 @@ button:hover {
     margin-top: 20px;
     color: green;
 }
+div.review-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+div.review-item {
+    background-color: rgba(0, 255, 81, 0.071);
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 10px;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.053);
+}
